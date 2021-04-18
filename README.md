@@ -1,2 +1,2 @@
 # ChatAppCodelab
-Real-time chat app in Flutter using Streams
+Real-time chat app in Flutter using Stream´s SDK
