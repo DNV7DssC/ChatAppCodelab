@@ -25,12 +25,6 @@ Future<void> main() async {
   });
   channel.create();
   channel.addMembers([client.state.user.id]);
-  print('##################### ' + client.state.user.id + ' ##################### ');
-  // channel.watch();
-  // channels.add(channel);
-  // channel = client.channel('gaming', id: 'gamers');
-  // channel.create();
-  // channels.add(channel);
 
   runApp(MyApp(
     client: client,
