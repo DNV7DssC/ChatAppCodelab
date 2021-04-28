@@ -20,6 +20,7 @@ Future<void> main() async {
   );
 
   List<Channel> channels = [];
+
   Channel channel = client.channel('messaging', id: 'flutter_devs', extraData: {
     'members': [client.state.user.id]
   });
